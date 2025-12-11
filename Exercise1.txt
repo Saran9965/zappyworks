@@ -1,3 +1,24 @@
+// add,sub,mul,div
+// num1=10;
+// num2=5;
+// add=num1+num2;
+// sub=num1-num2;
+// mul=num1*num2;
+// div=num1/num2;
+// info "Addition of "+num1+" and "+num2+ " is "+add;
+// info "Subtraction of "+num1+" and "+num2+ " is "+sub;
+// info "Multiplication of "+num1+" and "+num2+ " is "+mul;
+// info "Division of "+num1+" and "+num2+ " is "+div;
+
+// find quotient and remainder
+// n=234;
+// info n/6; // quotient
+// info n%6; //remainder
+
+// Square of number
+// n=5;
+// info n*n;
+
 // find the max in btn 2 no
 // a=13;
 // b=17;
@@ -50,5 +71,5 @@
 //     info "not";
 // }	
 // }
-// info "total vowels is"+no ;
+// info "Total Vowels is " +no ;
 
