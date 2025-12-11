@@ -1,0 +1,54 @@
+// find the max in btn 2 no
+// a=13;
+// b=17;
+// if ( a > b)
+// {
+// 	info a +"is greater."+ b;
+// }
+// else if ( a==b ) 
+// {
+// 	info "Both number is same" ;
+// }
+// else 
+// {
+// 	info b +" is Greater than"+ a ;
+// }
+
+// find the max of 3 no
+// a=40;
+// b=80;
+// c=70;
+// if ( a>b && a>c) 
+// {
+// 	info a+" is greater than"+ b + " and "+ c;
+// }
+// else if ( b>a && b>c ) 
+// {
+// 	info b+" is greater than"+ a + " and "+ c;
+// }
+// else if ( c>a && c>b ) 
+// {
+// 	info c+" is Greater than ".concat(a) + " and ".concat(b);
+// }
+// else 
+// {
+// 	info "Three numbers are same";
+// }
+
+// check whether the given input "Elephant" has a vowel or not
+// value = {"e","l","e","p","h","a","n","t"};
+// no=0;
+// for each i in value
+// {
+// 	if (i == "a" || i == "A" || i == "e" || i == "E" || i == "i" || i == "I" || i == "o" || i == "O" || i == "u" || i == "U")
+// {
+// 	no=no+1;
+//     info "vowel";
+// }
+// else
+// {
+//     info "not";
+// }	
+// }
+// info "total vowels is"+no ;
+
