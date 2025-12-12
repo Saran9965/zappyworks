@@ -1,0 +1,26 @@
+// Age program
+//  age=4;
+//  if ( age>=60 ) 
+//  {
+// 	 info "He is Senior citizen" ;
+//  }
+//  else if ( age>=18 && age<=59) 
+//  {
+// 	 info "He is Adult" ;
+//  }
+//  else 
+//  {
+// 	 info "Minor" ;
+//  }
+
+//validate empty string
+
+// val="ram";
+// if ( val=="" ||  val.isEmpty()) 
+// {
+// 	info "Name Missing" ;
+// }
+// else 
+// {
+// 	info val ;
+// }
