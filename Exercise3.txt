@@ -92,3 +92,21 @@
 // {
 // 	info "short text" ;
 // }
+
+// color found or not 
+// colors={"red","blue","green"};
+// f=[];
+// for each i in colors
+// {
+// 	if ( i=="blue") 
+// {
+// 	f=f+i;
+// info "Color Found "+i ;
+// }
+// else 
+// {
+// 	info "not found "+i ;
+// }
+
+// }
+// info "Color found :"+f ;
