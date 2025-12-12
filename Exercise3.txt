@@ -24,3 +24,18 @@
 // {
 // 	info val ;
 // }
+
+// login access
+// username="user1"; //original username & password
+// password="12345";
+// // user input
+// inputname="user1";
+// inputpassword="12345";
+// if ( username==inputname && password == inputpassword ) 
+// {
+// 	info "Login Successfully" ;
+// }
+// else 
+// {
+// 	info "Access Denied";
+// }
