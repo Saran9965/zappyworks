@@ -56,6 +56,17 @@
 // 	info "Three numbers are same";
 // }
 
+// Another check whether the given input "Elephant" has a vowel or not
+val="elephant".lower();
+if ( val.contains("a")||  val.contains("e")||  val.contains("i")||  val.contains("o")||  val.contains("u")) 
+{
+	info "vowels Found in elephant" ;
+}
+else 
+{
+	info "vowels not Found" ;
+}
+
 // check whether the given input "Elephant" has a vowel or not
 // value = {"e","l","e","p","h","a","n","t"};
 // no=0;
