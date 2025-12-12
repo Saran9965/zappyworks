@@ -39,3 +39,41 @@
 // {
 // 	info "Access Denied";
 // }
+
+// find Grade
+// mark=79;
+// if ( mark>=90 && mark <= 100) //90 and 90 above
+// {
+// 	info "A Grade" ;
+// }
+// else if ( mark>=80 && mark <= 89 ) //80 above 89
+// {
+// 	info "B Grade" ;
+// }
+// else if ( mark>=70 && mark <= 79 ) 
+// {
+// 	info "C Grade" ;
+// }
+// else if ( mark>=60 && mark <=69 ) 
+// {
+// 	info "D Grade" ;
+// }
+// else if (mark>=0 && mark<60) 
+// {
+// 	info "Fail" ;
+// }
+// else 
+// {
+// 	info "Give Correct Mark" ;
+// }
+
+// check valid email and in valid mail
+// email="ram@mail.com";
+// if ( email.contains("@") && email.contains(".") ) 
+// {
+// 	info "Valid Email :  "+email ;
+// }
+// else 
+// {
+// 	info "Invalid Email : "+email ;
+// }
