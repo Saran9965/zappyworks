@@ -89,16 +89,29 @@
 // info "Total Consonants is "+con ;
 
 
-
-
-//find a given character is alphabet 
-// val1="a%pp7le122*".lower();
-// val=val1.toCollection();
-// alphabet=val.getAlpha();	
-// special=val.removeAllAlphaNumeric();
-// number=val.removeAllAlpha();
-// info number.removeAll(special);
-// info "Alphabets are : "+alphabet;
-// info "Special characters are : "+special ;
-// info "Digits are : "+number ;
-// info "Digits are : "+num ;
+// find Alphabet and numbers and special character to a given string
+// val="ap3pl%e122*".lower();
+// n=[];
+// a=[];
+// s=[];
+// for each i in val.toList("")				
+// {
+// 		if (i.matches("[0-9]"))
+//     {
+// 		n=n+i;
+// // 		info i;
+//      }
+// else if(i.matches("[a-z]"))
+//     {
+// 		a=a+i;
+// // 		info i ;
+//     }
+// 	else 
+//     {
+// 		s=s+i;
+// // 		info i ;
+//     }
+// }
+// info "Alphabet is : "+a;
+// info "Number is : "+n;
+// info "Special character is : "+s;
