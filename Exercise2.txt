@@ -60,3 +60,8 @@
 // {
 // 	info year+" It's not a lear year" ;
 // }
+
+// find a given character is alphabet 
+// val="apple".lower();
+// res=val.matches("[a-z]{5}");	//[a-z]-alphbet {5}-size of the letter::ex;apple-5
+// info res ;
