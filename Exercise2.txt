@@ -27,3 +27,36 @@
 // {
 // 	info "Not divisible by both 5 and 11" ;
 // }
+
+// find even or odd
+// val=109;
+// if (isEven(val)) 
+// {
+// 	info "It's a Even Number" ;
+// }
+// else 
+// {
+// 	info "It's a Odd Number" ;
+// }
+
+// another method find even or odd
+// val=209;
+// if ( val%2==0 ) 
+// {
+// 	info val+" It's a Even Number" ;
+// }
+// else 
+// {
+// 	info val+" It's Odd Number" ;
+// }
+
+// find leap year or not
+// year=2002;
+// if ( year%4==0 ) 
+// {
+// 	info year+" It's a leap year" ;
+// }
+// else 
+// {
+// 	info year+" It's not a lear year" ;
+// }
