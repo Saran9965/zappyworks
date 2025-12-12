@@ -77,3 +77,18 @@
 // {
 // 	info "Invalid Email : "+email ;
 // }
+
+// find length >10 is long otherwise short
+// text="zoheator".trim();
+// tr=text.toList("");
+// res=tr.size();
+// info res;
+// // info tr ;
+// if ( res > 10 ) 
+// {
+// 	info "long text" ;
+// }
+// else 
+// {
+// 	info "short text" ;
+// }
