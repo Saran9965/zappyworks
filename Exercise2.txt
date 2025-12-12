@@ -65,3 +65,40 @@
 // val="apple".lower();
 // res=val.matches("[a-z]{5}");	//[a-z]-alphbet {5}-size of the letter::ex;apple-5
 // info res ;
+
+// check whether the given input "Elephant" has a vowel or not
+// val = "elephant".lower();
+// res=val.toCollection(""); //change into collection
+// info res ;
+// vowel=0;
+// con=0;
+// for each i in res
+// {
+// 	if (i == "a" || i == "e" || i == "i" || i == "o" ||i == "u")
+// {
+//  	vowel=vowel+1;
+//     info i+" = vowel";
+// }
+// else
+// {
+// 	con=con+1;
+//     info i+" = not vowel";
+// }	
+// }
+// info "Total Vowels is " +vowel;
+// info "Total Consonants is "+con ;
+
+
+
+
+//find a given character is alphabet 
+// val1="a%pp7le122*".lower();
+// val=val1.toCollection();
+// alphabet=val.getAlpha();	
+// special=val.removeAllAlphaNumeric();
+// number=val.removeAllAlpha();
+// info number.removeAll(special);
+// info "Alphabets are : "+alphabet;
+// info "Special characters are : "+special ;
+// info "Digits are : "+number ;
+// info "Digits are : "+num ;
