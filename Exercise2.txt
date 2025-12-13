@@ -135,7 +135,7 @@
 // info "Number is : "+n;
 // info "Special character is : "+s;
 
-// password and username checker stronger
+// password and username checker stronger password validator
 // pass="test123".toUpperCase();
 // l=pass.len();
 // if ( l >= 6 ) 
