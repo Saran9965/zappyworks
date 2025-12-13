@@ -249,3 +249,42 @@ else
 // {
 // 	info "Give correct Number" ;
 // }
+
+// student percentage and grade find
+// phy=200;
+// chy=20;
+// bio=40;
+// maths=30;
+// com=30;
+// tot=(phy+chy+bio+maths+com);
+// per=(phy+chy+bio+maths+com)/500*100 ;
+// // info tot ;
+// info "Total Percentage is : "+per ;
+// if ( per >= 90 && per <= 100 ) 
+// {
+// 	info "Grade A" ;
+// }
+// else if ( per >= 80 && per < 90 ) 
+// {
+// 	info "Grade B" ;
+// }
+// else if ( per >= 70 && per < 80) 
+// {
+// 	info "Grade C" ;
+// }
+// else if ( per >= 60 && per < 70 ) 
+// {
+// 	info "Grade D" ;
+// }
+// else if ( per >= 40 && per < 60) 
+// {
+// 	info "Grade E" ;
+// }
+// else if ( per >1 && per < 40 ) 
+// {
+// 	info "Grade F" ;
+// }
+// else 
+// {
+// 	info "In Valid Marks or Percentage" ;
+// }
