@@ -161,3 +161,22 @@
 // {
 // 	info "password is Too Short Must Have 6" ;
 // }
+
+//age and income checker for loan
+// age=50;
+// inc=10000;
+// if ( age >= 21 ) 
+// {
+// 	if ( inc >= 30000 ) 
+//     {
+// 		info "Eligible for loan" ;
+//     }
+// 	else 
+//     {
+// 		info "Not ligible for loan or low income" ;
+//     }
+// }
+// else 
+// {
+// 	info "Age not met" ;
+// }
