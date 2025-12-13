@@ -124,3 +124,32 @@ else
 
 // }
 // info "Color found :"+f ;
+
+
+// customer regular or premium
+// inpcust="reg";  //prem
+// amou=600;
+// if (amou<500 ) 
+// {
+// 	info "No Discount available below 500 : "+amou ;
+// }
+// else if (amou>500 && inpcust == "pre" ) //premium
+// {
+// 		dis=amou/100*10;
+// 		info "If Customer Type is Premium : 10% Discount" ;
+// 		info "10 % Discount is : "+dis;
+// 		totaldis=amou-dis;
+// 		info "Total is : "+totaldis ;
+// }
+// else if (amou>500 && inpcust == "reg" ) //regular
+//     {
+// 		dis=amou/100*5;
+// 		info "If Customer Type is Regular : 5% Discount" ;
+// 		info "5 % Discount is : "+dis ;
+// 		totaldis=amou-dis;
+// 		info totaldis ;
+//     }
+// else 
+// {
+// 	info "Not available" ;
+// }
