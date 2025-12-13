@@ -178,3 +178,74 @@ else
 // {
 // 	info "Give Correct Weight" ;
 // }
+
+
+// password and username checker stronger password validator
+// pass="test123".toUpperCase();
+// l=pass.len();
+// if ( l >= 6 ) 
+// {
+// 		if ( pass.matches(".*[0-9].*") ) 
+// 		{
+// 			if ( pass.matches(".*[A-Z].*") ) 
+// 			{
+// 				info "Strong Password" ;
+// 			}
+// 			else 
+// 			{
+// 				info "Must have Alphabet" ;
+// 			}
+// 		}
+// 		else 
+// 		{
+// 			info "Must have Number" ;
+// 		}
+
+// }
+// else 
+// {
+// 	info "password is Too Short Must Have 6" ;
+// }
+
+
+//Age and income checker for loan
+// age=50;
+// inc=10000;
+// if ( age >= 21 ) 
+// {
+// 	if ( inc >= 30000 ) 
+//     {
+// 		info "Eligible for loan" ;
+//     }
+// 	else 
+//     {
+// 		info "Not ligible for loan or low income" ;
+//     }
+// }
+// else 
+// {
+// 	info "Age not met" ;
+// }
+
+//Steps check if avtive or very active or excellent
+// step=7568;
+// if ( step>0 && step < 5000 ) 
+// {
+// 	info "Not Active" ;
+// }
+// else if ( step >= 5000 && step < 7500 ) 
+// {
+// 	info "Active" ;
+// }
+// else if ( step >= 7500 && step < 10000) 
+// {
+// 	info "Very Active" ;
+// }
+// else if ( step >= 10000 ) 
+// {
+// 	info "Excellent" ;
+// }
+// else 
+// {
+// 	info "Give correct Number" ;
+// }
