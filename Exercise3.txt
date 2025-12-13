@@ -288,3 +288,34 @@ else
 // {
 // 	info "In Valid Marks or Percentage" ;
 // }
+
+
+// gross salary
+// bas=30000;
+// if ( bas>1 && bas <= 10000 ) 
+// {
+// 	hra=bas/100*20;
+// 	da=bas/100*80;
+// 	tot=bas+hra+da;
+// 	info "Total is : " + tot;
+// }
+// else if ( bas>10000 && bas <= 20000 ) 
+// {
+// 	hra=bas/100*25;
+// 	da=bas/100*90;
+// 	tot=bas+hra+da;
+// 	info "Total is : " + tot;
+// }
+// else if (bas > 20000 ) 
+// {
+// 	hra=bas/100*30;
+// 	da=bas/100*95;
+// 	tot=bas+hra+da;
+// 	info "Total is : " + tot;
+// }
+// else 
+// {
+// 	info "give correct value" ;
+// }
+
+
