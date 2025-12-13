@@ -180,3 +180,26 @@
 // {
 // 	info "Age not met" ;
 // }
+
+//steps check if avtive or very active or excellent
+// step=7568;
+// if ( step>0 && step < 5000 ) 
+// {
+// 	info "Not Active" ;
+// }
+// else if ( step >= 5000 && step < 7500 ) 
+// {
+// 	info "Active" ;
+// }
+// else if ( step >= 7500 && step < 10000) 
+// {
+// 	info "Very Active" ;
+// }
+// else if ( step >= 10000 ) 
+// {
+// 	info "Excellent" ;
+// }
+// else 
+// {
+// 	info "Give correct Number" ;
+// }
