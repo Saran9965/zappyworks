@@ -108,7 +108,6 @@
 // info "Digits are : "+d;
 	 
 
-
 // find Alphabet and numbers and special character to a given string
 // val="ap3pl%e122*".lower();
 // n=[];
@@ -135,3 +134,30 @@
 // info "Alphabet is : "+a;
 // info "Number is : "+n;
 // info "Special character is : "+s;
+
+// password and username checker stronger
+// pass="test123".toUpperCase();
+// l=pass.len();
+// if ( l >= 6 ) 
+// {
+// 		if ( pass.matches(".*[0-9].*") ) 
+// 		{
+// 			if ( pass.matches(".*[A-Z].*") ) 
+// 			{
+// 				info "Strong Password" ;
+// 			}
+// 			else 
+// 			{
+// 				info "Must have Alphabet" ;
+// 			}
+// 		}
+// 		else 
+// 		{
+// 			info "Must have Number" ;
+// 		}
+
+// }
+// else 
+// {
+// 	info "password is Too Short Must Have 6" ;
+// }
