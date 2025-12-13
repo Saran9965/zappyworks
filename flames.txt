@@ -1,0 +1,114 @@
+b="ram".toList("");
+g="jas".toList("");
+for each i in b
+{
+	if ( g.contains(i)) 
+    {
+		b.removeElement(i);
+		g.removeElement(i);
+// 		info g ;
+// 		info b ;
+    }
+}
+a= b.size();
+z= g.size();
+x=a+z;
+info x;
+if ( x == 1 ) 
+{
+	info "Sister" ;
+}
+else if ( x == 2 ) 
+{
+	info "Enemies" ;
+}
+else if ( x == 3 ) 
+{
+	info "Friend" ;
+}
+else if ( x == 4 ) 
+{
+	info "Enemies" ;
+}
+else if ( x == 5 ) 
+{
+	info "Friend" ;
+}
+else if ( x == 6) 
+{
+	info "Marriage" ;
+}
+else if ( x == 7 ) 
+{
+	info "Enemies" ;
+}
+else if ( x == 8 ) 
+{
+	info "Affection" ;
+}
+else if ( x == 9 ) 
+{
+	info "Enemies" ;
+}
+else if ( x == 10 ) 
+{
+	info "Love" ;
+}
+
+
+// problem-1
+
+// yr=2400;
+// if (yr % 4 == 0  ) 
+// {
+// 	if ( yr%4==0 && yr % 100 == 0 ) 
+//     {
+// 			info "notleap"; 
+//     }
+// 	else 
+//     {
+// 		info "leap" ;
+//     }
+// 	if ( yr %100 && yr%400 ) 
+//     {
+// 		info "leap year" ;
+//     }
+// 	else 
+//     {
+// 		info "" ;
+//     }
+// }
+// else 
+// {
+// 	info "not leap" ;
+// }
+
+//problem-2
+
+// yr=2024;
+// if (yr % 4 == 0  && yr % 100 == 0) 
+// {
+// 	if ( yr % 400 == 0 && yr%100 == 0 ) 
+//     {
+// 			info "leap" ;
+//     }
+// 	else 
+//     {
+// 		info "not" ;
+//     }
+// }
+// else 
+// {
+// 	info "not leap" ;
+// }
+
+
+
+// month change without using Build-in (addMonth)
+dates='1-Jan-2025';
+// val=5;
+// cal=(val *4);
+// info cal ;
+// info dates.addWeek(cal) ;
+// info dates.eomonth(val) ;
+// info dates.addMonth(val) ;//buildin
