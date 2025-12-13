@@ -93,6 +93,20 @@
 // 	info "short text" ;
 // }
 
+
+// find length >10 is long otherwise short
+text="zoho ator";
+result=text.length();
+info result ;
+if ( result > 10 ) 
+{
+	info "long text" ;
+}
+else 
+{
+	info "small text" ;
+}
+
 // color found or not 
 // colors={"red","blue","green"};
 // f=[];
