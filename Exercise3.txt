@@ -98,8 +98,9 @@
 // 	info "short text" ;
 // }
 
+		(or)	
 
-7).find length >10 is long otherwise short
+6).find length >10 is long otherwise short
 
 text="zoho ator";
 result=text.length();
@@ -113,7 +114,7 @@ else
 	info "small text" ;
 }
 
-8).Color found or not 
+7).Color found or not 
 
 // colors={"red","blue","green"};
 // f=[];
@@ -133,7 +134,7 @@ else
 // info "Color found :"+f ;
 
 
-9).Customer regular or premium
+8).Customer regular or premium
 
 // inpcust="reg";  //prem
 // amou=600;
@@ -164,7 +165,8 @@ else
 
 
 
-10).weight calculation
+9).weight calculation
+
 // w=200;
 // if ( w>0 && w<=1)
 // {
@@ -187,7 +189,8 @@ else
 // 	info "Give Correct Weight" ;
 // }
 
-11).Password and username checker stronger password validator
+10).Password and username checker stronger password validator
+
 // pass="test123".toUpperCase();
 // l=pass.len();
 // if ( l >= 6 ) 
@@ -214,7 +217,7 @@ else
 // 	info "password is Too Short Must Have 6" ;
 // }
 
-12).Age and income checker for loan
+11).Age and income checker for loan Eligible
 
 // age=50;
 // inc=10000;
@@ -234,7 +237,8 @@ else
 // 	info "Age not met" ;
 // }
 
-13).Steps check if avtive or very active or excellent
+12).Steps check if avtive or very active or excellent
+
 // step=7568;
 // if ( step>0 && step < 5000 ) 
 // {
@@ -257,7 +261,7 @@ else
 // 	info "Give correct Number" ;
 // }
 
-14).student percentage and grade find
+13).student percentage and grade find
 
 // phy=200;
 // chy=20;
@@ -298,7 +302,7 @@ else
 // }
 
 
-15).Gross salary 
+14).Gross salary 
 
 // bas=30000;
 // if ( bas>1 && bas <= 10000 ) 
@@ -328,7 +332,7 @@ else
 // }
 
 
-16).Electric Bills
+15).Electric Bills
 
 unit= 310;
 //code
