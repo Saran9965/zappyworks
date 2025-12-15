@@ -1,4 +1,5 @@
-// Age program
+1).Age program
+
 //  age=4;
 //  if ( age>=60 ) 
 //  {
@@ -13,7 +14,7 @@
 // 	 info "Minor" ;
 //  }
 
-//validate empty string
+2).validate empty string
 
 // val="ram";
 // if ( val=="" ||  val.isEmpty()) 
@@ -25,7 +26,8 @@
 // 	info val ;
 // }
 
-// login access
+3).login access or Denied
+
 // username="user1"; //original username & password
 // password="12345";
 // // user input
@@ -40,7 +42,8 @@
 // 	info "Access Denied";
 // }
 
-// find Grade
+4).find Grade
+
 // mark=79;
 // if ( mark>=90 && mark <= 100) //90 and 90 above
 // {
@@ -67,7 +70,8 @@
 // 	info "Give Correct Mark" ;
 // }
 
-// check valid email and in valid mail
+5).check valid email and in valid mail
+
 // email="ram@mail.com";
 // if ( email.contains("@") && email.contains(".") ) 
 // {
@@ -78,7 +82,8 @@
 // 	info "Invalid Email : "+email ;
 // }
 
-// find length >10 is long otherwise short
+6).find length >10 is long otherwise short
+
 // text="zoheator".trim();
 // tr=text.toList("");
 // res=tr.size();
@@ -94,7 +99,8 @@
 // }
 
 
-// find length >10 is long otherwise short
+7).find length >10 is long otherwise short
+
 text="zoho ator";
 result=text.length();
 info result ;
@@ -107,7 +113,8 @@ else
 	info "small text" ;
 }
 
-// color found or not 
+8).Color found or not 
+
 // colors={"red","blue","green"};
 // f=[];
 // for each i in colors
@@ -126,7 +133,8 @@ else
 // info "Color found :"+f ;
 
 
-// customer regular or premium
+9).Customer regular or premium
+
 // inpcust="reg";  //prem
 // amou=600;
 // if (amou<500 ) 
@@ -156,7 +164,7 @@ else
 
 
 
-// weight calculation
+10).weight calculation
 // w=200;
 // if ( w>0 && w<=1)
 // {
@@ -179,8 +187,7 @@ else
 // 	info "Give Correct Weight" ;
 // }
 
-
-// password and username checker stronger password validator
+11).Password and username checker stronger password validator
 // pass="test123".toUpperCase();
 // l=pass.len();
 // if ( l >= 6 ) 
@@ -207,8 +214,8 @@ else
 // 	info "password is Too Short Must Have 6" ;
 // }
 
+12).Age and income checker for loan
 
-//Age and income checker for loan
 // age=50;
 // inc=10000;
 // if ( age >= 21 ) 
@@ -227,7 +234,7 @@ else
 // 	info "Age not met" ;
 // }
 
-//Steps check if avtive or very active or excellent
+13).Steps check if avtive or very active or excellent
 // step=7568;
 // if ( step>0 && step < 5000 ) 
 // {
@@ -250,7 +257,8 @@ else
 // 	info "Give correct Number" ;
 // }
 
-// student percentage and grade find
+14).student percentage and grade find
+
 // phy=200;
 // chy=20;
 // bio=40;
@@ -290,7 +298,8 @@ else
 // }
 
 
-// gross salary
+15).Gross salary 
+
 // bas=30000;
 // if ( bas>1 && bas <= 10000 ) 
 // {
@@ -319,7 +328,8 @@ else
 // }
 
 
-//Electric Bills
+16).Electric Bills
+
 unit= 310;
 //code
 if (unit <=50){

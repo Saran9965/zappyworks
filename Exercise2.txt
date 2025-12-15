@@ -1,16 +1,20 @@
-//get date
+1).Get date
+
 // tdate = '17-Jan-2018 21:10:37';
 // info tdate.getDateTime();
 
-//getDateTime
+2).Get DateTime
+
 // currentDate = '17-Jan-2018 18:10:37';
 // info currentDate.getDate();
 
-// square of the number
+3).Square of the number
+
 number=9;
 info number*number ;
 
-// check positive , negative or zero
+4).Check positive , negative or zero
+
 // val=40;
 // if (val>0) 
 // {
@@ -25,7 +29,8 @@ info number*number ;
 // 	info val+" is Negative";
 // }
 
-// check a number is div by 5 or 11 or not
+5).Check a number is div by 5 or 11 or not
+
 // num=20;
 // if (num%5 == 0) 
 // {
@@ -40,7 +45,8 @@ info number*number ;
 // 	info "Not divisible by both 5 and 11" ;
 // }
 
-// find even or odd
+6).find even or odd
+
 // val=109;
 // if (isEven(val)) 
 // {
@@ -51,7 +57,10 @@ info number*number ;
 // 	info "It's a Odd Number" ;
 // }
 
-// another method find even or odd
+    (or)
+
+6).Another method find even or odd
+
 // val=209;
 // if ( val%2==0 ) 
 // {
@@ -62,23 +71,53 @@ info number*number ;
 // 	info val+" It's Odd Number" ;
 // }
 
-// find leap year or not
-// year=2002;
-// if ( year%4==0 ) 
+7).Leap or not
+
+// yr=2004;
+// if (yr % 4 == 0 && yr % 100 != 0) 
 // {
-// 	info year+" It's a leap year" ;
+// 	info "leap" ;
+//  }
+// else if ( yr % 4 == 0 && yr % 100 == 0 &&  yr % 400 == 0  ) 
+// {
+// 	info "leap" ;
 // }
 // else 
 // {
-// 	info year+" It's not a lear year" ;
+// 	info "not" ;
 // }
 
-// find a given character is alphabet 
+
+8).find a given character is alphabet or not
+
 // val="apple".lower();
-// res=val.matches("[a-z]{5}");	//[a-z]-alphbet {5}-size of the letter::ex;apple-5
+// res=val.matches("[a-z]{5}"); 	//[a-z]-alphbet {5}-size of the letter::ex;apple-5
 // info res ;
 
-// check whether the given input "Elephant" has a vowel or not
+        (or)
+
+8).find a given character is alphabet or not
+
+// val1="a%pp7le122*".lower();
+// val=val1.toCollection();
+// alphabet=val.getAlpha();	
+// special=val.removeAllAlphaNumeric();
+// info "Alphabets are : "+alphabet;
+// info "Special characters are : "+special ;
+// d=[];
+// for each i in val.toList("")				
+// {
+// 		if (i.matches("[0-9]"))
+//     {
+// 		d=d+i;
+// // 		info i;
+//      }
+// }
+// info "Digits are : "+d;
+	 
+
+9).Check whether the given input "Elephant" has a vowel or consonants
+
 // val = "elephant".lower();
 // res=val.toCollection(""); //change into collection
 // info res ;
@@ -101,26 +140,8 @@ info number*number ;
 // info "Total Consonants is "+con ;
 
 
-//find a given character is alphabet 
-// val1="a%pp7le122*".lower();
-// val=val1.toCollection();
-// alphabet=val.getAlpha();	
-// special=val.removeAllAlphaNumeric();
-// info "Alphabets are : "+alphabet;
-// info "Special characters are : "+special ;
-// d=[];
-// for each i in val.toList("")				
-// {
-// 		if (i.matches("[0-9]"))
-//     {
-// 		d=d+i;
-// // 		info i;
-//      }
-// }
-// info "Digits are : "+d;
-	 
+10).find Alphabet and numbers and special character to a given string
 
-// find Alphabet and numbers and special character to a given string
 // val="ap3pl%e122*".lower();
 // n=[];
 // a=[];

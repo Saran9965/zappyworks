@@ -1,3 +1,5 @@
+1).Add,sub,mul,div
+
 // add,sub,mul,div
 // num1=10;
 // num2=5;
@@ -10,16 +12,51 @@
 // info "Multiplication of "+num1+" and "+num2+ " is "+mul;
 // info "Division of "+num1+" and "+num2+ " is "+div;
 
-// find quotient and remainder
+2).find area and Perimeter in square
+
+s=5;
+area=(s)*(s);
+peri=4*(s);
+info "Area of the Square is : " +area ;
+info "Perimeter of the Square is : "+peri ;
+
+3).Area & Circumference of a circle
+
+rad=2;
+area=3.14*(rad)*rad;
+info "Area & Circumference is : " +area ;
+
+4).find area and Perimeter in Rectangle
+
+len=10;
+wid=5;
+area=len * wid;
+peri=2*(len + wid);
+info "Area of the Rectangle is " +area + " cm";
+info "Perimeter of the Rectangle is "+peri + " cm";
+
+5).find quotient and remainder
+
 // n=234;
 // info n/6; // quotient
 // info n%6; //remainder
 
-// Square of number
-// n=5;
-// info n*n;
+6).find quotient and remainder
 
-// find the max in btn 2 no
+val=144;
+div=7;
+info "Remainder is : "+ val%div;
+val=234;
+div=6;
+info "Quotient is : "+val/div;
+
+7).Square of number
+
+n=5;
+info n*n;
+
+8).find the max in btn 2 no
+
 // a=13;
 // b=17;
 // if ( a > b)
@@ -35,7 +72,8 @@
 // 	info b +" is Greater than"+ a ;
 // }
 
-// find the max of 3 no
+9).find the max of 3 no
+
 // a=40;
 // b=80;
 // c=70;
@@ -56,7 +94,8 @@
 // 	info "Three numbers are same";
 // }
 
-// Another check whether the given input "Elephant" has a vowel or not
+10).Another check whether the given input "Elephant" has a vowel or not
+
 val="elephant".lower();
 if ( val.contains("a")||  val.contains("e")||  val.contains("i")||  val.contains("o")||  val.contains("u")) 
 {
@@ -67,7 +106,8 @@ else
 	info "vowels not Found" ;
 }
 
-// check whether the given input "Elephant" has a vowel or not
+11).check whether the given input "Elephant" has a vowel or not
+
 // value = {"e","l","e","p","h","a","n","t"};
 // no=0;
 // for each i in value
@@ -83,4 +123,3 @@ else
 // }	
 // }
 // info "Total Vowels is " +no ;
-
