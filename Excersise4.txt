@@ -48,7 +48,8 @@ else
         (or)
 
 
-// Palindrome
+// Palindrome  like a stack and queue format
+
 m="app";
 x=m.toList("");
 n=[];

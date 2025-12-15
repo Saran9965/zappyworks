@@ -1,3 +1,5 @@
+//flames
+
 b="ram".toList("");
 g="jas".toList("");
 for each i in b
@@ -83,23 +85,6 @@ else if ( x == 10 )
 // 	info "not leap" ;
 // }
 
-//problem-2
-
-// yr=2004;
-// if (yr % 4 == 0 && yr % 100 != 0) 
-// {
-// 	info "leap" ;
-//  }
-// else if ( yr % 4 == 0 && yr % 100 == 0 &&  yr % 400 == 0  ) 
-// {
-// 	info "leap" ;
-// }
-// else 
-// {
-// 	info "not" ;
-// }
-
-
 
 // month change without using Build-in (addMonth)
 dates='1-Jan-2025';
@@ -121,25 +106,3 @@ for each i in x
 	info y ;
 }
 
-
-// Palindrome
-m="app";
-x=m.toList("");
-n=[];
-y=[];
-for each i in x
-{
- 	n=n+i;
-	y=i+y;
-
-}
-if ( n == y ) 
-{
-	info "pal";
-}
-else 
-{
-	info "not" ;
-}
-info n ;
-info y ;
