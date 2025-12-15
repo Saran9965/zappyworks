@@ -85,21 +85,18 @@ else if ( x == 10 )
 
 //problem-2
 
-// yr=2024;
-// if (yr % 4 == 0  && yr % 100 == 0) 
+// yr=2004;
+// if (yr % 4 == 0 && yr % 100 != 0) 
 // {
-// 	if ( yr % 400 == 0 && yr%100 == 0 ) 
-//     {
-// 			info "leap" ;
-//     }
-// 	else 
-//     {
-// 		info "not" ;
-//     }
+// 	info "leap" ;
+//  }
+// else if ( yr % 4 == 0 && yr % 100 == 0 &&  yr % 400 == 0  ) 
+// {
+// 	info "leap" ;
 // }
 // else 
 // {
-// 	info "not leap" ;
+// 	info "not" ;
 // }
 
 
