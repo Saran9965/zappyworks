@@ -1,3 +1,15 @@
+//get date
+// tdate = '17-Jan-2018 21:10:37';
+// info tdate.getDateTime();
+
+//getDateTime
+// currentDate = '17-Jan-2018 18:10:37';
+// info currentDate.getDate();
+
+// square of the number
+number=9;
+info number*number ;
+
 // check positive , negative or zero
 // val=40;
 // if (val>0) 
