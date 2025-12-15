@@ -1,0 +1,87 @@
+1).check UpperCase or LowerCase
+
+a="h";
+if (a == a.toUpperCase()) 
+{
+	info "UpperCase" ;
+}
+else 
+{
+	info "LowerCase" ;
+}
+
+
+2).number to word
+
+number =4; 
+info number.toWords("en-us");
+
+
+5).count the give no 
+
+statement =7658525;
+result = statement.getOccurenceCount(5);
+info result;
+
+6).Palindrome or not
+
+nam="apple";
+rev=nam.reverse();
+if ( nam == rev) 
+{
+	info "Palindrome" ;
+}
+else 
+{
+	info "Not Palindrome" ;
+}
+
+        (or)
+
+
+// Palindrome
+m="app";
+x=m.toList("");
+n=[];
+y=[];
+for each i in x
+{
+ 	n=n+i;
+	y=i+y;
+
+}
+if ( n == y ) 
+{
+	info "pal";
+}
+else 
+{
+	info "not" ;
+}
+info n ;
+info y ;
+
+
+7).Simple interest and compound interest
+
+p=1000;
+n=5;
+r=10;
+si=(p*n*r)/100;
+info "Simple Interest = "+si ;
+ci=p*(1+(r/100)).power(n)- p;
+info "Compound Interest = "+ci;
+
+8).Absolute and power value 
+
+number=3;
+abs= number.abs();
+info abs;
+p=abs.power(3);
+info p;
+
+9).find smallest value
+
+val={16,3,5,8,6};
+a=val.smallest();
+info "Smallest Number is : "+a;
