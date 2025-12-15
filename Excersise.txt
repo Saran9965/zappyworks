@@ -11,11 +11,20 @@ else
 }
 
 
-2).number to word
+3).number to word
 
 number =4; 
 info number.toWords("en-us");
 
+4).count the number of currency div by amount
+
+am=1000;
+n={500,200,100,50,20,10};
+for each i in n
+{
+	c=am/i;
+	info i+" : "+c;
+}
 
 5).count the give no 
 
@@ -85,3 +94,88 @@ info p;
 val={16,3,5,8,6};
 a=val.smallest();
 info "Smallest Number is : "+a;
+
+10).11). find max and Min
+
+result = 10.max(90);
+info result;
+result = 10.min(20);
+info result;
+
+12).find greater and smaller
+
+a=190;
+b=29;
+if ( a > b ) 
+{
+	info a+ " Is Greater "+b ;
+}
+else 
+{
+	info a+ " Is Smaller than "+b ;
+}
+
+13).fin circle formula
+
+rad=2;
+dia=5;
+pi=3.14;
+diam=2*rad;
+per=(2*pi)*rad;
+info diam.round(0) ;
+info per.round(0) ;
+
+14).Perfect Square or not
+
+number = 25;
+sqr=number.sqrt();
+root=sqr * sqr;
+if (number == root) 
+{
+	info "Perfect Square" ;
+}
+else 
+{
+	info "Not Perfect Square" ;
+}
+
+15).ceil and floor()
+
+a=10.5;
+b=11.5;
+c=a.ceil();
+d=b.floor();
+info c ;
+info d ;
+if ( c == d ) 
+{
+	info "Equals" ;
+}
+else 
+{
+	info "Not" ;
+}
+
+16).Absolute and power value 
+
+number=-3;
+abs= number.abs();
+info abs;
+p=abs.power(3);
+info p;
+
+17).even and odd number to changes
+
+num=9;
+if ( num % 2 == 0 ) 
+{
+	info "Given number is : "+num;
+	num=num+1;
+	info "Change into Odd Number is : "+num ;
+}
+else 
+{
+	s=num*num;
+	info "Given number is : "+num ;
+	info "Square of the number is : "+s;
+}
