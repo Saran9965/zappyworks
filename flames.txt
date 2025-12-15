@@ -109,3 +109,37 @@ dates='1-Jan-2025';
 // info dates.addWeek(cal) ;
 // info dates.eomonth(val) ;
 // info dates.addMonth(val) ;//buildin
+
+
+// star program (*)
+m="****";
+x=m.toList("");
+y=[];
+for each i in x
+{
+	y=i+y;
+	info y ;
+}
+
+
+// Palindrome
+m="app";
+x=m.toList("");
+n=[];
+y=[];
+for each i in x
+{
+ 	n=n+i;
+	y=i+y;
+
+}
+if ( n == y ) 
+{
+	info "pal";
+}
+else 
+{
+	info "not" ;
+}
+info n ;
+info y ;
