@@ -10,6 +10,24 @@ else
 	info "LowerCase" ;
 }
 
+2).find days(month) in a given month in number
+
+month=12;
+mon_31=Collection(1,3,5,7,8,10,12);
+mon_30=Collection(4,6,9,11);
+if ( mon_31.contains(month) ) 
+{
+	info "31 days in a month" ;
+}
+else if ( mon_30.contains(month) ) 
+{
+	info "30 days in a month" ;
+}
+else 
+{
+	info "28 days or 29 days in feburary" ;
+}
+
 
 3).number to word
 

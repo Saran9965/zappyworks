@@ -106,3 +106,29 @@ for each i in x
 	info y ;
 }
 
+//comphrension
+n=45678;
+n = if (n.matches(".*[0-9].*"), "yes", "nooo"); 
+info n ;
+
+
+// find currentdate and time
+
+info zoho.currentdate; //currentdate
+info zoho.currenttime;	//currentdate and currenttime
+info now;  	//currentdate and currenttime
+
+
+//date and time using(UnixEpoch)
+
+dateValue ='16-Dec-2025';
+monName = dateValue.toString("MMMM");	//MMMM - month in words fully(january)
+dayName = dateValue.toString("EEEE");	//EEEE - days in works fully(tuesday)
+yrName = dateValue.toString("YYYY");	//YYYY - year
+yrsname=yrName.toWords("en-us");		//works fully in year (2025)two thousand twenty five
+info monName;
+info dayName;
+info yrName;
+info yrsname;
+
+
