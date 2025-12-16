@@ -132,3 +132,26 @@ info yrName;
 info yrsname;
 
 
+name="rithik".toList("");
+// info name ;
+s=0;
+a=[];
+result1 = name.getOccurenceCount("r");
+result2 = name.getOccurenceCount("i");
+result3 = name.getOccurenceCount("t");
+result4 = name.getOccurenceCount("h");
+result5 = name.getOccurenceCount("i");
+result6 = name.getOccurenceCount("k");
+// info result1;
+// info result2;
+// info result3;
+// info result4;
+// info result5;
+for each ins in name
+{
+	info ins ;
+
+}
+
+
+
