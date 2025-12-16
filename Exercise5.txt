@@ -1,0 +1,109 @@
+1).find index
+
+prod={"Milk","Butter","Cream"};
+result = prod.indexOf("Butter");
+info result;
+
+2).assign value using index in firstplace
+
+col= Collection("company","Creator");
+newl="zoho".toList();
+for each val in col
+{	
+	newl.insert(val);
+}
+info "Before : "+col ;
+info "After : "+newl ;
+
+3).find multiply of list item
+
+col= {6,8,9,3,4,7};
+pro=1;
+for each i in col
+{
+	pro = i * pro;
+}
+info pro ;
+
+4).multiply in 6 using list
+n=6;
+numb={1,2,3,4,5,6,7,8,9,10};
+new=Collection();
+for each i in numb
+{
+	res=i * n;
+	new.insert(res);
+}
+info new ;
+
+5).number to word in Collection
+
+n={3,6,9,10};
+new=Collection();
+for each i in n
+{
+	wor = i.toWords("en-us");
+	new.insert(wor);
+}
+info new ;
+
+6).Sum of Even number and Odd number
+
+n={1,8,9,45,78,34};
+even=0;
+odd=0;
+for each i in n
+{
+	if (isOdd(i)) 
+    {
+		odd=i+odd;
+    }
+	else 
+    {
+		even=i+even;
+    }
+}
+info "Sum of Even number is : "+even ;
+info "Sum of Odd number is : "+odd ;
+
+7).count the Odd numbers in a list
+
+n={4,90,88,77,11,13,1234};
+even=0;
+odd=0;
+for each i in n
+{
+	if (isOdd(i)) 
+    {
+		odd=odd+1;
+		info i ;
+    }
+	else 
+    {
+		even=even+1;
+    }
+}
+info "Sum of Even number is : "+even ;
+info "Sum of Odd number is : "+odd ;
+
+8).
+
+
+
+9).find a index of the value in a Collection
+
+fruits={"strawberry","cherry","apple","banana"};    //strawberry is - 0
+for each index i in fruits
+{
+	info "Index of is " + fruits.get(i) + " - " + i;
+}
+
+10).square root  of each number
+
+n={44,89,99,100,12};
+sqr=0;
+for each i in n
+{
+	res=i.sqrt();
+	 info i+" Square root is "+ res ;
+}
