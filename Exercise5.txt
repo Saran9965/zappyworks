@@ -84,13 +84,21 @@ for each i in n
 info "Sum of Even number is : "+even ;
 info "Sum of Odd number is : "+odd ;
 
-8).
+8).check the word in given sentence
 
-
-
-
-
-
+sent={"Positive thinking always leads to success","I like nature","Be positive"};
+sentence=sent.lower();
+words={"always","be","like","to"};
+for each sen in sentence
+{
+	for each word in words
+    {
+		if ( sen.contains(word) ) 
+        {
+			info word+" : is present in a sentence - " +sen;
+        }
+    }
+}
 
 9).find a index of the value in a Collection
 

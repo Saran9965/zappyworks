@@ -139,14 +139,16 @@ else
 rad=2;
 dia=5;
 pi=3.14;
+area=pi * (rad)*(rad);
 diam=2*rad;
 per=(2*pi)*rad;
+info area.round(0);
 info diam.round(0) ;
 info per.round(0) ;
 
 14).Perfect Square or not
 
-number = 25;
+number = 25;		//no-4 is sqrt is 2(ans) ; if 2(ans)*2 = 4-(4 is matched in number) is perfect 
 sqr=number.sqrt();
 root=sqr * sqr;
 if (number == root) 
