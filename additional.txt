@@ -153,5 +153,50 @@ for each ins in name
 
 }
 
+// Type Here
+n="saaranrrrrr";
+name=n.toCollection("");
+uni=Collection();
+rep=Collection();
+for each i in name
+{
+		if ( i not in uni ) 
+        {
+			uni.insert(i);
+        }
+		else 
+        {
+			rep.insert(i);
+        }
+}
+// info uni ;
+// info rep ;
+// info rep.size() ;
+
+maxChar = "";
+maxCount = 0;
+
+for each u in uni
+{
+	count = 0;
+
+	for each c in name
+	{
+		if(c == u)
+		{
+			count = count + 1;
+		}
+	}
+
+	if(count > maxCount)
+	{
+		maxCount = count;
+		maxChar = u;
+	}
+}
+
+info "Rep is : " + maxChar;
+info "Count is : " + maxCount;
+
 
 
