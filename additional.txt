@@ -231,3 +231,18 @@ info "positive are = "+pos ;
 info "negative are = "+neg ;
 info "even are = "+ev ;
 info "odd are = "+od ;
+
+
+// find largest and smallest in a list 
+
+l={1,-3,4,2,5};
+lar=0;// (or)	1
+for each i in l
+{
+	if ( i > lar ) //<(small)
+    {
+		lar = i;
+    }
+
+}
+info lar + " - is greater" ;//smaller

@@ -68,3 +68,52 @@ for each i in str3
     }
 }
 info lst ;
+
+
+// char={"fny46$@sdv","ib456&^dfg","6165vd$%&%"};
+// str3=char.toList("");
+// info str3 ;
+// lst=Collection();
+// for each i in str3
+// {
+// 	if ( i.matches(".*[a-z].*") ) 
+//     {
+// 		lst.insert(i);
+//     }
+// }
+// info lst;
+
+
+// lst = "fghj".toList("");
+// a=lst.toString("\",\"");
+// info a ;
+
+ products  =  "ZohoCreatorZohoCRM".toList("");
+ productList  =  products.toString("\",\"");
+ info productList;
+
+// Using "\",\"" as separator
+
+// "\",\"" is a string: quote + comma + quote
+
+// \" → escapes a quote (") in the string
+
+// , → literal comma
+
+// \" → escapes another quote
+
+// So "\",\"" literally becomes:
+
+char = {"fny46$@sdv","ib456&^dfg","6165vd$%&%"};
+str3 = char.toList("");
+lst = Collection();
+for each i in str3
+{
+	if(i.matches(".*[a-z].*"))
+	{
+		lst.insert(i);
+	}
+}
+output = lst.toString("\",\"") ;
+info output;
+
