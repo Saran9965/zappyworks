@@ -30,3 +30,41 @@ info lst ;
 info "unique is - "+uni ;
 info "duplicate is - "+dup ;
 
+
+4).
+
+
+
+
+
+
+
+
+5).Reverse a list value
+
+m=[1,2,3,4,5];
+x=m.toList("");
+n=[];
+y=[];
+for each i in x
+{
+ 	n=n+i;
+	y=i+y;
+
+}
+info n ;
+info y ;
+
+6).find sting in a list and print seperate list
+
+char={"fny46$@sdv","ib456&^dfg","6165vd$%&%"};
+str3=char.toList("");
+lst=Collection();
+for each i in str3
+{
+	if ( i.matches(".*[a-z].*") ) 
+    {
+		lst.insert(i);
+    }
+}
+info lst ;
