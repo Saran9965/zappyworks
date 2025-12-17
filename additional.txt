@@ -200,3 +200,34 @@ info "Count is : " + maxCount;
 
 
 
+
+
+// find +ve and -ve and even and odd
+lst={1,2,3,-5,-6,-9};
+pos=[];
+neg=[];
+ev=[];
+od=[];
+for each i in lst
+{
+	if ( i < 0 ) 
+    {
+		neg.add(i);
+    }
+	if (i % 2 != 0 && i > 0) 
+    {
+		od.add(i);
+    }
+	if ( i > 0 ) 
+    {
+		pos.add(i);
+    }
+	if (i % 2 == 0 &&  i>0) 
+    {
+		ev.add(i);
+    }
+}
+info "positive are = "+pos ;
+info "negative are = "+neg ;
+info "even are = "+ev ;
+info "odd are = "+od ;

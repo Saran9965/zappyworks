@@ -60,7 +60,8 @@ for each index i in fruits
     }
 }
 
-6).
+6). 5 is divisible by list
+
 lst={90,65,23,90,34};
 for each i in lst
 {
@@ -71,5 +72,45 @@ for each i in lst
 	else 
     {
 		info i+"- Not divisible by 5" ;
+    }
+}
+
+7).find unique in a list
+
+flower={"Rose","Lotus","Lilly","Jas","Lilly","SunFlower"};
+info flower ;
+	uni=flower.distinct();
+	for each i in uni
+    {
+		info i.lower();
+    }
+
+8).find absolute value in a list
+
+num={123.5,789.90,876.65,8976.76};
+for each i in num
+{
+	absu=i.abs();
+	info absu ;
+}
+
+9).Assending Order in a list 
+
+num={87,90,67,23,56,90,65,90};
+num.sort();
+info num ;
+
+10).find Even or Odd in a list
+
+num={12,11,22,77,34,33,90};
+for each i in num
+{
+	if ( i.isEven() ) 
+    {
+		info i+" - this Even Number" ;
+    }
+	else 
+    {
+		info i+" - this is Odd Number" ;
     }
 }
