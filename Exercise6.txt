@@ -1,0 +1,75 @@
+1).colors add in Collection
+
+new=Collection();
+col={"red","orange","black"};
+new.insertAll(col);
+new.add("blue");
+new.add("green");
+info new ;
+
+2).Iteration in Collection
+
+col={"red","orange","black",1,2,3,4,5};
+for each i in col
+{
+	info i ;
+}
+
+3).search element in a list
+
+col={1,2,3,4,5,8,6,7};
+a=10;
+if ( col.contains(a)) 
+    {
+		info a +"- is Present in list" ;
+    }
+else 
+{
+	info a+ "- Not present in a list" ;
+}
+
+4).remove 3rd element in a list
+
+col={"ant","apple","bat","cat","dog"};
+res=col.remove(2);
+info res;
+info col;
+
+5).find element i the position or index
+
+fruits={"strawberry","cherry","apple","banana"};    
+for each index i in fruits
+{
+	info "Index of is " + fruits.get(i) + " - " + i;
+}
+
+        (or)
+
+fruits={"ant","ball","cat","dog","eat","ton"}; 
+position=1;
+for each index i in fruits
+{
+	if ( i == position) 
+    {
+		info i +" nd is position of "+ fruits.get(i-1);
+    }
+	else if ( position > i) 
+    {
+		i=i+1;
+		info i+" position is "+fruits.get(i-1) ;
+    }
+}
+
+6).
+lst={90,65,23,90,34};
+for each i in lst
+{
+	if ( i%5 ==0 ) 
+    {
+		info i+" - this  number is divisible by 5" ;
+    }
+	else 
+    {
+		info i+"- Not divisible by 5" ;
+    }
+}
