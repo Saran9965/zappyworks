@@ -93,45 +93,41 @@ info  num;
 info  spe;
 
 7).
+customer_det = {
+	"sam":{"mail":"sam@gmail.com","phone":1234567890},
+	"ragu":{"mail":"ragu@gmail.com","phone":1234567890}
+};
 
-customer_det = map({"sam":{"mail":"sam@gmail.com","phone":1234567890},
-"ragu":{"mail":"ragu@gmail.com","phone":1234567890}});
-order_details=map({"sam":{"briyani":1,"rice":1,"bottle":2},"ragu":{"rice":2}});
-price=map({"briyani":100,"rice":150,"bottle":10});
-// info customer_det.get("order_details");
- for each cus in customer_det.keys()
+order_details = {
+	"sam":{"briyani":1,"rice":1,"bottle":2},
+	"ragu":{"rice":2}
+};
+
+price = {
+	"briyani":100,
+	"rice":150,
+	"bottle":10
+};
+
+for each cus in customer_det.keys()
 {
-// 	info cus ;
-// 	info customer_det.get(cus).get("mail") ;
-// 	for each ord in cus.keys()
-//     {
-// // 		info ord+"--"+cus.get(ord);
-// // 		name=cus.get(ord);
-// 		info order_details.get(name) ;
-//     }
-	f= order_details.get(cus) ;
-	for each food in f.keys()
-    {
-		info food+"---"+f.get(food) ;	
-		val= price.get(food) ;
-		info val * f.get(food) ;
-		
-    }
+	info "Customer : " + cus;
+
+	order = order_details.get(cus);
+
+	total = 0;
+
+	for each ord in order.keys()
+	{
+		qty = order.get(ord);
+		item_price = price.get(ord);
+		item_total = qty * item_price;
+
+		info ord + " Qty : " + qty + "  Price : " + item_total;
+
+		total = total + item_total;
+	}
+
+	info "Total Amount for " + cus + " = " + total;
+	info "----------------------------";
 }
-
-// cust_data={"raj","raj@gmail.com","pizza"});
-// product={"mobile","shoes","laptop"});
-// product=map({"products":{"mobile":20000,"laptop":45000,"headset":500},"favorite":{"lap":100,"watch":200}});
-
-// // info customer_det;
-// // info product.get("products").values() ;
-// for each i in product.values()
-// {
-// // 	info i;
-// 	for each j in i.keys()
-//     {
-// 		info j;
-// 		info j+" - "+i.get(j) ;
-//     }
-// }
-// info product.get("products").values()  ;
