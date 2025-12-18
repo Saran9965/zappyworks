@@ -246,3 +246,40 @@ for each i in l
 
 }
 info lar + " - is greater" ;//smaller
+
+
+
+
+
+///dump
+
+l={1,2,5,4,3};
+lar=0;
+small=[];
+larg=[];
+for each i in l
+{
+	if ( i > lar )
+    {
+		small.add(i);
+ 		lar = i;
+    }
+	else 
+    {
+		larg.add(i);
+		lar = i;
+    }
+	for each j in small
+    {
+		if ( i > j ) 
+        {
+			info i ;
+        }
+    }
+
+	
+}
+// info lar ;
+
+info small ;
+info larg ;

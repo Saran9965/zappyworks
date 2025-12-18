@@ -57,63 +57,50 @@ info y ;
 
 6).find sting in a list and print seperate list
 
-char={"fny46$@sdv","ib456&^dfg","6165vd$%&%"};
-str3=char.toList("");
-lst=Collection();
-for each i in str3
-{
-	if ( i.matches(".*[a-z].*") ) 
-    {
-		lst.insert(i);
-    }
-}
-info lst ;
-
-
-// char={"fny46$@sdv","ib456&^dfg","6165vd$%&%"};
-// str3=char.toList("");
-// info str3 ;
-// lst=Collection();
-// for each i in str3
-// {
-// 	if ( i.matches(".*[a-z].*") ) 
-//     {
-// 		lst.insert(i);
-//     }
-// }
-// info lst;
-
-
-// lst = "fghj".toList("");
-// a=lst.toString("\",\"");
-// info a ;
-
- products  =  "ZohoCreatorZohoCRM".toList("");
- productList  =  products.toString("\",\"");
- info productList;
-
 // Using "\",\"" as separator
-
 // "\",\"" is a string: quote + comma + quote
-
 // \" → escapes a quote (") in the string
-
 // , → literal comma
-
 // \" → escapes another quote
-
 // So "\",\"" literally becomes:
 
 char = {"fny46$@sdv","ib456&^dfg","6165vd$%&%"};
-str3 = char.toList("");
-lst = Collection();
-for each i in str3
+// str3 = char.toList("");
+alp =List(" ");
+num=List();
+spe=List();
+for each i in char
 {
-	if(i.matches(".*[a-z].*"))
+	n=" ";
+	s="";
+	a=" ";
+	for each j in i.toList("")
+    {
+		if(j.matches(".*[a-z].*"))
 	{
-		lst.insert(i);
+		a=a+j;
 	}
+	else if ( j.matches(".*[0-9].*") ) 
+    {
+		n=n+j;
+    }
+	else 
+    {
+		s=s+j;
+    }
+    }
+	alp.add(a);
+	num.add(n);
+	spe.add(s);
+	
 }
-output = lst.toString("\",\"") ;
-info output;
-
+new=[];
+for each k in alp.toList("")
+{
+	
+	new.insert(k);
+}
+info  "[" + new.toString("\",\"") + "\"]"; 
+info "[" + alp.toString("\",\"") + "\"]";
+info  "[" + num.toString("\",\"") + "\"]";
+info  "[" + spe.toString("\",\"") + "\"]";
