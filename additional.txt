@@ -286,6 +286,7 @@ info larg ;
 
 
 
+
 customer_det = map({"sam":{"mail":"sam@gmail.com","phone":1234567890},
 					"ragu":{"mail":"ragu@gmail.com","phone":1234567890}});
 
@@ -296,11 +297,17 @@ price=map({"briyani":100,"rice":150,"bottle":10,"pizza":500});
 inp2={"mail":"new@gmail.com","phone":123456789};
 customer_det.put("new1",inp2);
 
-q={"sathis":{"mail":"sd@gmail.com","phone":13456789},"arsath":{"mail":"sd@gmail.com","phone":13456789}};
-customer_det.putAll(q);
+p1={"sathis":{"mail":"sd@gmail.com","phone":13456789},"arsath":{"mail":"sd@gmail.com","phone":13456789}};
+customer_det.putAll(p1);
 
-o={"sathis":{"pizza":2,"bottle":1}}; 
-order_details.putAll(o);
+p2={"sathish":{"mail":"sathish@gmail.com","phone":234567111}}; 
+customer_det.putAll(p2);
+
+p3={"sathish":{"briyani":1,"rice":2}};
+order_details.putAll(p3);
+
+// info customer_det;
+// info order_details ;
 
 // info customer_det.get("order_details");
  for each cus in customer_det.keys()
@@ -308,14 +315,14 @@ order_details.putAll(o);
 	totals=0;
 	info "---------------------------------------------";
  	info "Customer Name : "+cus ;
-	info "---------------------------------------------";
+	info "##############################################";
 	if ( order_details.containkey(cus) ) 
     {
 		order = order_details.get(cus);
 	for each ord in order.keys()
     {
 		pr=price.get(ord);
-		info ord+"	|  Quantity : "+order.get(ord)+" | "+"Price - "+pr ;
+		info ord+"	|  Quantity : "+order.get(ord)+" | "+"Price - "+pr+"*"+(order.get(ord)) +"="+pr * (order.get(ord));
 		tot=order.get(ord)*pr;
 		totals += tot;
     }
@@ -326,4 +333,3 @@ order_details.putAll(o);
 		info "No order placed - "+ cus;
     }
 }
-

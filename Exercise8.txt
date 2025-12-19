@@ -1,0 +1,25 @@
+1).Vote Eligible
+
+members=map({"kumar":'29-sep-2003',
+			"naveen":'10-aug-2005',
+			"vignesh":'25-jan-2005',
+			"mani":'16-may-2001',
+			"balu":'11-dec-2007',
+			"rock":'2-feb-2001',
+			"raj":'6-may-2002',
+			"sathya":'4-mar-2006',
+			"jani":'29-apr-2017'});
+
+today = now;
+for each yrs in members
+{
+	y=yrs.yearsBetween(today);
+	if ( y >= 18 ) 
+    {
+		info "Eligible for vote : "+ members.getkey(yrs);
+    }
+	else 
+    {
+		info "not for vote : "+members.getkey(yrs);
+    }
+}
