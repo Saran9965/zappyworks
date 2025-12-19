@@ -335,6 +335,32 @@ order_details.putAll(p3);
 }
 
 
+customer = {"cus1":{"name":"stanley","food":"briyani", "quantity":1,"contact":987656789},
+                 "cust2":{"name":"sathish","food":"veg", "quantity":2,"contact":987656789},
+				 "cust3":{"name":"saran","food":"rice", "quantity":3,"contact":987659889},
+				  "cust4":{"name":"gokul","food":"veg", "quantity":2,"contact":987656789},
+				  "cust5":{"name":"motu","food":"briyani", "quantity":3,"contact":987656789}};
+				  
+price_food = {"briyani":150,"veg":250,"rice":150};
+
+                  for each customers in customer.keys()
+				  {
+					  info "name is - "+ customers;
+					  
+				n=customer.get(customers).get("name");
+				f=customer.get(customers).get("food");
+				q=customer.get(customers).get("quantity");
+				c=customer.get(customers).get("contact");
+				info "Name - "+ n +"|\t "+f +"|\t Qty - "+q+"\t|\t cont -"+c;
+					  
+				fd=price_food.get(f);
+				 info fd;
+				 pri=fd * q;
+				 info "price is ----------"+pri ;
+				
+}
+
+
 // spotid={001,002,003,004,005};
 // sname={"abc","pqr","xyz","ram","jin"};
 // age={10,12,20,18,15};
