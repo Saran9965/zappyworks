@@ -333,3 +333,31 @@ order_details.putAll(p3);
 		info "No order placed - "+ cus;
     }
 }
+
+
+// spotid={001,002,003,004,005};
+// sname={"abc","pqr","xyz","ram","jin"};
+// age={10,12,20,18,15};
+// for each i in age
+// {
+// // 	age1=sname.getkey(i);
+// // 	info age1 ;
+// 	info i ;
+// 	for each j in sname
+//     {
+// 		info j.getKey(j) ;
+//     }
+// // 	if ( i > 15 && i <=18 ) 
+// //     {
+// // 		info "play 400m"+sname;
+// //     }
+// // 	if ( i > 15 ) 
+// //     {
+// // 		info "play 100m" ;
+// //     }
+// // 	if ( i > 18 ) 
+// //     {
+// // 		info "play kabbadi" ;
+// //     }
+// }
+

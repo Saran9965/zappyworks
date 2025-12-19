@@ -23,3 +23,50 @@ for each yrs in members
 		info "not for vote : "+members.getkey(yrs);
     }
 }
+
+2).senior citizen
+
+members=map({"kumar":'29-sep-2003',
+			"naveen":'10-aug-2005',
+			"vignesh":'25-jan-2005',
+			"mani":'16-may-2001',
+			"balu":'11-dec-2007',
+			"rock":'2-feb-2001',
+			"raj":'6-may-2002',
+			"sathya":'4-mar-2006',
+			"jani":'29-apr-2002'});
+			
+num=members.sort();
+for each i in num
+{
+	info i+"-"+members.getkey(i) ;
+}
+
+3).find net salary and hra and da and tax
+
+members=map({"kumar":{"Basic":1000,"HRA":15,"DA":10,"TAX":5},
+			"jack":{"Basic":10000,"HRA":20,"DA":5,"TAX":3},
+			"jill":{"Basic":15000,"HRA":25,"DA":10,"TAX":10}});
+			
+for each i in members.keys()
+{
+	info "---------------------------------------";
+	info "Employee is  - "+i;
+	info "";
+
+	basic_sal=members.get(i).get("Basic");
+	hra=members.get(i).get("HRA");
+	da=members.get(i).get("DA");
+	tax=members.get(i).get("TAX");
+
+	hra1=(basic_sal/100)*hra;
+	da1=(basic_sal/100)*da;
+	tax1=(basic_sal/100)*tax;
+	info "Basic Salary is :"+basic_sal ;
+	info "HRA is  - " +hra+"\t"+"-"+"\t"+hra1;
+	info "DA is  - "+da+"\t"+"-"+"\t"+da1 ;
+	info "TAX is  - "+tax+"\t"+"-"+"\t"+tax1;
+	bas1=(basic_sal+hra1+da1)-tax1;
+	info "Total salary is :"+"\t"+bas1;
+	
+}
