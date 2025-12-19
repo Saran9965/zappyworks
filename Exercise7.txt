@@ -131,3 +131,32 @@ for each cus in customer_det.keys()
 	info "Total Amount for " + cus + " = " + total;
 	info "----------------------------";
 }
+
+
+8).products insert and retrive
+
+cus=map();
+a=map();
+b=map();
+c=map();
+a.put("mohan","mohan@gmail.com");
+a.put("order1", "laptop");
+a.put("order2", "toy");
+info a ;
+b.put("ram","ram@gmail.com");
+b.put("order", "pc");
+b.put("order2", "chair");
+info b ;
+c.put("rock","rock@gmail.com");
+c.put("order", "book");
+info c;
+
+cus.put("p1", a);
+cus.put("p2", b);
+cus.put("p3", c);
+
+c.put("order", "note");
+info cus ;
+
+info "person is :"+cus.get("p2").get("order2") ;
+
