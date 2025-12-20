@@ -132,26 +132,6 @@ info yrName;
 info yrsname;
 
 
-name="rithik".toList("");
-// info name ;
-s=0;
-a=[];
-result1 = name.getOccurenceCount("r");
-result2 = name.getOccurenceCount("i");
-result3 = name.getOccurenceCount("t");
-result4 = name.getOccurenceCount("h");
-result5 = name.getOccurenceCount("i");
-result6 = name.getOccurenceCount("k");
-// info result1;
-// info result2;
-// info result3;
-// info result4;
-// info result5;
-for each ins in name
-{
-	info ins ;
-
-}
 
 // Type Here
 n="saaranrrrrr";
@@ -200,8 +180,6 @@ info "Count is : " + maxCount;
 
 
 
-
-
 // find +ve and -ve and even and odd
 lst={1,2,3,-5,-6,-9};
 pos=[];
@@ -246,44 +224,6 @@ for each i in l
 
 }
 info lar + " - is greater" ;//smaller
-
-
-
-
-
-///dump
-
-l={1,2,5,4,3};
-lar=0;
-small=[];
-larg=[];
-for each i in l
-{
-	if ( i > lar )
-    {
-		small.add(i);
- 		lar = i;
-    }
-	else 
-    {
-		larg.add(i);
-		lar = i;
-    }
-	for each j in small
-    {
-		if ( i > j ) 
-        {
-			info i ;
-        }
-    }
-
-	
-}
-// info lar ;
-
-info small ;
-info larg ;
-
 
 
 
@@ -360,32 +300,7 @@ price_food = {"briyani":150,"veg":250,"rice":150};
 				
 }
 
-
-// spotid={001,002,003,004,005};
-// sname={"abc","pqr","xyz","ram","jin"};
-// age={10,12,20,18,15};
-// for each i in age
-// {
-// // 	age1=sname.getkey(i);
-// // 	info age1 ;
-// 	info i ;
-// 	for each j in sname
-//     {
-// 		info j.getKey(j) ;
-//     }
-// // 	if ( i > 15 && i <=18 ) 
-// //     {
-// // 		info "play 400m"+sname;
-// //     }
-// // 	if ( i > 15 ) 
-// //     {
-// // 		info "play 100m" ;
-// //     }
-// // 	if ( i > 18 ) 
-// //     {
-// // 		info "play kabbadi" ;
-// //     }
-// }
+// map() inside a list[]
 
 l={"hari":"mca","jack":"bsc"};
 m={"hari":1234567890,"jack":1234567890};
@@ -397,3 +312,17 @@ for each i in l.keys()
 	new.put(i, {dept,call});
 }
 info new ;
+
+
+// sort
+
+num={23,35,42,52,64,10,99};
+newlist = list();
+val = num.size()-1;
+for each   num1 in num
+{
+	info val ;
+	newlist.add(num.get(val));
+	val-=1;
+}
+info newlist;
