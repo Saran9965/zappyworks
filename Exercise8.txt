@@ -70,3 +70,27 @@ for each i in members.keys()
 	info "Total salary is :"+"\t"+bas1;
 	
 }
+
+4).age difference to play games
+
+spotid={101,102,103,104,105};
+sname={"abc","pqr","xyz","ram","jin"};
+age={10,12,20,18,15};
+for each i in age
+{
+	pos=age.indexOf(i);
+	n=sname.get(pos);
+	s=spotid.get(pos);
+	if ( i > 15 && i <=18 ) 
+    {
+		info n+"\t "+"\t play 400m running"+"\t Id- "+s+"\t Age is - "+i;
+    }
+	if ( i > 15 ) 
+    {
+		info n+"\t "+"\t play 100m running"+"\t Id- "+s+"\t Age is - "+i;
+    }
+	if ( i > 18 ) 
+    {
+		info n+"\t "+"\t play kabbadi"+"\t\t\t ld- "+s+"\t Age is - "+i;
+    }
+}

@@ -387,3 +387,13 @@ price_food = {"briyani":150,"veg":250,"rice":150};
 // //     }
 // }
 
+l={"hari":"mca","jack":"bsc"};
+m={"hari":1234567890,"jack":1234567890};
+new=map();
+for each i in l.keys()
+{
+	dept=l.get(i);
+	call=m.get(i);
+	new.put(i, {dept,call});
+}
+info new ;
