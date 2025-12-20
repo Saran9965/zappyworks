@@ -314,7 +314,7 @@ for each i in l.keys()
 info new ;
 
 
-// sort
+// reverse
 
 num={23,35,42,52,64,10,99};
 newlist = list();
