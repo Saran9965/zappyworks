@@ -94,3 +94,33 @@ for each i in age
 		info n+"\t "+"\t play kabbadi"+"\t\t\t ld- "+s+"\t Age is - "+i;
     }
 }
+
+5).find population and city and rural and town
+
+
+place={"maduranthakam","karungali","kanchipuram","chengalpattu","tambaram"};
+pop={50000,4500,150000,80500,200000};
+for each i in pop
+{
+	pos=pop.indexOf(i);
+	pl=place.get(pos);
+	
+	if (i>=100000)
+    {
+		info i+"----"+pl+"\t"+"Its a city";
+    }
+	else if (i>=10000 && i<100000)
+    {
+		info i+"----"+pl+"\t"+"Its a Town";
+    }
+	else if (i>=100 && i<10000)
+    {
+		info i+"----"+pl+"\t "+"Its a Rural";
+    }
+	else 
+    {
+		info "invalid";
+    }
+
+}
+
