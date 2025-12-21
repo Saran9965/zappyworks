@@ -124,3 +124,68 @@ for each i in pop
 
 }
 
+
+lst1=[{"Products":"Orange","Date_of_Sale":"2020-04-18","Quantity_Sold":20},
+	{"Products":"Apple","Date_of_Sale":"2020-02-28","Quantity_Sold":15},
+	{"Products":"Kiwi","Date_of_Sale":"2020-05-15","Quantity_Sold":50},
+	{"Products":"Peach","Date_of_Sale":"2020-11-22","Quantity_Sold":35},
+	{"Products":"Strawberry","Date_of_Sale":"2020-12-24","Quantity_Sold":10},
+	{"Products":"Watermelon","Date_of_Sale":"2021-01-11","Quantity_Sold":25}];
+				
+for each i in lst1
+{
+	p=i.get("Products");
+	d=i.get("Date_of_Sale");
+	q=i.get("Quantity_Sold");
+	info q.sort();
+}
+
+
+lst1=[{"Products":"Orange","Date_of_Sale":"2020-04-18","Quantity_Sold":20},
+	{"Products":"Apple","Date_of_Sale":"2020-02-28","Quantity_Sold":15},
+	{"Products":"Kiwi","Date_of_Sale":"2020-05-15","Quantity_Sold":50},
+	{"Products":"Peach","Date_of_Sale":"2020-11-22","Quantity_Sold":35},
+	{"Products":"Strawberry","Date_of_Sale":"2020-12-24","Quantity_Sold":10},
+	{"Products":"Watermelon","Date_of_Sale":"2021-01-11","Quantity_Sold":25}];
+			
+l=map();
+for each i in lst1
+{
+	l.putAll(i);
+	for each j in l
+    {
+// 		p=l.get("Products");
+// 		d=j.get("Date_of_Sale");
+ 		q=l.get("Quantity_Sold");
+// 		info p ;
+		s=q.sortKey();
+		info s;
+		
+    }
+
+}
+
+
+7).
+lst={2,3,4,2,5,3,6,2,7,9,2,1};
+l=map();
+for each i in lst
+{
+	l.put(i,(lst.getOccurenceCount(i)));
+}
+info l;
+
+8).sum all values in a multi list
+
+l1={{1,2,3},{4,5},{6,7,8}};
+l=list();
+sum=0;
+for each i in l1
+{
+	l.addAll(i);
+}
+for each j in l
+{
+	sum=sum+j;
+}
+info sum;
