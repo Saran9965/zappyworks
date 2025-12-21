@@ -189,3 +189,24 @@ for each j in l
 	sum=sum+j;
 }
 info sum;
+
+10).multi list into singlr list
+
+l1={{1,2,3},{4,5},{6,7,8}};
+l=Collection();
+for each i in l1
+{
+	l.insertAll(i);
+}
+info l;
+
+11).find max in a list
+
+n={{1,9,3},{4,12},{6,7,8}}; //12 max
+new=list();
+for each i in n
+{
+	new.addAll(i);
+}
+ma=new.largest();
+info ma;
