@@ -276,10 +276,10 @@ order_details.putAll(p3);
 
 
 customer = {"cus1":{"name":"stanley","food":"briyani", "quantity":1,"contact":987656789},
-                 "cust2":{"name":"sathish","food":"veg", "quantity":2,"contact":987656789},
-				 "cust3":{"name":"saran","food":"rice", "quantity":3,"contact":987659889},
-				  "cust4":{"name":"gokul","food":"veg", "quantity":2,"contact":987656789},
-				  "cust5":{"name":"motu","food":"briyani", "quantity":3,"contact":987656789}};
+            "cust2":{"name":"sathish","food":"veg", "quantity":2,"contact":987656789},
+			"cust3":{"name":"saran","food":"rice", "quantity":3,"contact":987659889},
+			"cust4":{"name":"gokul","food":"veg", "quantity":2,"contact":987656789},
+			"cust5":{"name":"motu","food":"briyani", "quantity":3,"contact":987656789}};
 				  
 price_food = {"briyani":150,"veg":250,"rice":150};
 
@@ -327,6 +327,7 @@ for each   num1 in num
 }
 info newlist;
 
+// find correct paranthesis or not
 
 lis ="()(())";
 // open=0;
