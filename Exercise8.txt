@@ -75,28 +75,27 @@ for each i in members.keys()
 
 spotid={101,102,103,104,105};
 sname={"abc","pqr","xyz","ram","jin"};
-age={10,12,20,18,15};
+age={10,16,20,18,15};
 for each i in age
 {
 	pos=age.indexOf(i);
 	n=sname.get(pos);
 	s=spotid.get(pos);
-	if ( i > 15 && i <=18 ) 
+	if (   i >= 18 ) 
     {
-		info n+"\t "+"\t play 400m running"+"\t Id- "+s+"\t Age is - "+i;
+		info n+"\t "+"\t play kabbadi"+"\t\t\t ld- "+s+"\t Age is - "+i;
     }
-	if ( i > 15 ) 
+	else if ( i >= 15 && i <=18  ) 
     {
 		info n+"\t "+"\t play 100m running"+"\t Id- "+s+"\t Age is - "+i;
     }
-	if ( i > 18 ) 
+	else if ( i < 15 ) 
     {
-		info n+"\t "+"\t play kabbadi"+"\t\t\t ld- "+s+"\t Age is - "+i;
+		info n+"\t "+"\t play 400m running"+"\t Id- "+s+"\t Age is - "+i;
     }
 }
 
 5).find population and city and rural and town
-
 
 place={"maduranthakam","karungali","kanchipuram","chengalpattu","tambaram"};
 pop={50000,4500,150000,80500,200000};
@@ -109,11 +108,11 @@ for each i in pop
     {
 		info i+"----"+pl+"\t"+"Its a city";
     }
-	else if (i>=10000 && i<100000)
+	else if (i>=10000)
     {
 		info i+"----"+pl+"\t"+"Its a Town";
     }
-	else if (i>=100 && i<10000)
+	else if (i>=1)
     {
 		info i+"----"+pl+"\t "+"Its a Rural";
     }
@@ -124,6 +123,21 @@ for each i in pop
 
 }
 
+
+6) find days and week and years
+
+days = 373;
+// info days;
+year = days/365;
+
+remaining_days = days%365 ;
+
+week = remaining_days/7;
+
+info week.floor();
+
+
+7)
 
 lst1=[{"Products":"Orange","Date_of_Sale":"2020-04-18","Quantity_Sold":20},
 	{"Products":"Apple","Date_of_Sale":"2020-02-28","Quantity_Sold":15},
@@ -141,32 +155,8 @@ for each i in lst1
 }
 
 
-lst1=[{"Products":"Orange","Date_of_Sale":"2020-04-18","Quantity_Sold":20},
-	{"Products":"Apple","Date_of_Sale":"2020-02-28","Quantity_Sold":15},
-	{"Products":"Kiwi","Date_of_Sale":"2020-05-15","Quantity_Sold":50},
-	{"Products":"Peach","Date_of_Sale":"2020-11-22","Quantity_Sold":35},
-	{"Products":"Strawberry","Date_of_Sale":"2020-12-24","Quantity_Sold":10},
-	{"Products":"Watermelon","Date_of_Sale":"2021-01-11","Quantity_Sold":25}];
-			
-l=map();
-for each i in lst1
-{
-	l.putAll(i);
-	for each j in l
-    {
-// 		p=l.get("Products");
-// 		d=j.get("Date_of_Sale");
- 		q=l.get("Quantity_Sold");
-// 		info p ;
-		s=q.sortKey();
-		info s;
-		
-    }
+8).most repeat character
 
-}
-
-
-7).
 lst={2,3,4,2,5,3,6,2,7,9,2,1};
 l=map();
 for each i in lst
@@ -175,7 +165,7 @@ for each i in lst
 }
 info l;
 
-8).sum all values in a multi list
+9v ).sum all values in a multi list
 
 l1={{1,2,3},{4,5},{6,7,8}};
 l=list();
@@ -190,7 +180,24 @@ for each j in l
 }
 info sum;
 
-10).multi list into singlr list
+
+	(or)
+
+l1={{1,2,3},{4,5},{6,7,8}};
+l=list();
+sum=0;
+for each i in l1
+{
+	list2 = i;
+	for each j in list2
+    {
+		l.add(j);
+		sum=j+sum;
+    }
+}
+info sum;
+
+10).multi list into single list
 
 l1={{1,2,3},{4,5},{6,7,8}};
 l=Collection();
@@ -210,3 +217,16 @@ for each i in n
 }
 ma=new.largest();
 info ma;
+
+12).number to string
+
+l1={{1,2,3},{4,5},{6,7,8}};
+l=list();
+for each i in l1
+{
+	for each j in i
+    {
+		l.add(j);
+    }
+}
+info l.tostring();

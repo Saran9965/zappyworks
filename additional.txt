@@ -326,3 +326,27 @@ for each   num1 in num
 	val-=1;
 }
 info newlist;
+
+
+lis ="()(())";
+// open=0;
+// for each i in lis.toCollection("")
+// {
+// 	if ( i=="(" ) 
+//     {
+// 		open=open+1;
+//     }
+// 	else 
+//     {
+// 		open-=1;
+//     }
+// }
+// if ( open == 0 ) 
+// {
+// 	info "correct";
+// }
+// else 
+// {
+// 	info "not crt";
+// }
+
