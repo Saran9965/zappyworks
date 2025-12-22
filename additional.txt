@@ -327,6 +327,27 @@ for each   num1 in num
 }
 info newlist;
 
+
+// sort without using build in function
+
+num = {19,34,38,98,12};
+resultList = list();
+for each rec in num
+{
+	largets = num.get(0);
+	for each val in num
+    {
+		if(val < largets)
+		{
+			largets = val;
+       }
+    }
+	resultList.add(largets);
+	num.removeElement(largets);
+}
+info resultList;
+
+
 // find correct paranthesis or not
 
 lis ="()(())";
@@ -350,4 +371,3 @@ lis ="()(())";
 // {
 // 	info "not crt";
 // }
-
