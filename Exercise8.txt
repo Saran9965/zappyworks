@@ -139,31 +139,21 @@ info week.floor();
 
 7)
 
-// lst1=[{"Products":"Orange","Date_of_Sale":"2020-04-18","Quantity_Sold":20},
-// 	{"Products":"Apple","Date_of_Sale":"2020-02-28","Quantity_Sold":15},
-// 	{"Products":"Kiwi","Date_of_Sale":"2020-05-15","Quantity_Sold":50},
-// 	{"Products":"Peach","Date_of_Sale":"2020-11-22","Quantity_Sold":35},
-// 	{"Products":"Strawberry","Date_of_Sale":"2020-12-24","Quantity_Sold":10},
-// 	{"Products":"Watermelon","Date_of_Sale":"2021-01-11","Quantity_Sold":25}];
-				
-// for each i in lst1
-// {
-// 	pos=lst1.indexOf(i);
-// 	q=i.get("Quantity_Sold");
-
-// 	for each j in lst1
-//     {
-// 		inner_pos=lst1.indexOf(j);
-// 		inner_q=j.get("Quantity_Sold");
-		
-// 		info pos+"---"+q;
-// 		info inner_pos+"---"+inner_q;
-		
-// 		info "=======================";
-// 		info "";
-		
-//     }
-// }
+lst1=[{"Products":"Orange","Date_of_Sale":"2020-04-18","Quantity_Sold":20},
+	{"Products":"Apple","Date_of_Sale":"2020-02-28","Quantity_Sold":15},
+	{"Products":"Kiwi","Date_of_Sale":"2020-05-15","Quantity_Sold":50},
+	{"Products":"Peach","Date_of_Sale":"2020-11-22","Quantity_Sold":35},
+	{"Products":"Strawberry","Date_of_Sale":"2020-12-24","Quantity_Sold":10},
+	{"Products":"Watermelon","Date_of_Sale":"2021-01-11","Quantity_Sold":25}];
+new=map();		
+for each i in lst1
+{
+	q=i.get("Quantity_Sold");
+	new.put(i,q);
+  }
+  new.sort(false);
+  final=new.keys();
+  info final;
 
 
 8).most repeat character
