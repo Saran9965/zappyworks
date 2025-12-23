@@ -1,0 +1,13 @@
+name={"Siva","Vijay","John","Shasha","Joe"};
+num={1,2,3,4,5};
+for each i in num
+{
+	pos=num.indexOf(i);
+	n=name.get(pos);
+	ran=randomNumber(1,num.size());
+	a=num.get(ran);
+	num.add(a);
+ 	num.remove(ran);
+	}
+	info n ;
+
