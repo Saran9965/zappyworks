@@ -137,7 +137,7 @@ week = remaining_days/7;
 info week.floor();
 
 
-7)
+7) sort in quantity_sold items
 
 lst1=[{"Products":"Orange","Date_of_Sale":"2020-04-18","Quantity_Sold":20},
 	{"Products":"Apple","Date_of_Sale":"2020-02-28","Quantity_Sold":15},
