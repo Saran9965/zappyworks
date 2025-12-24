@@ -1,0 +1,81 @@
+// Equilateral:
+// Sides: All three sides are equal in length (e.g., 5cm, 5cm, 5cm).
+// Angles: All three angles are equal, each measuring 60° (since 180°/3 = 60°).
+// Isosceles:
+// Sides: At least two sides are equal in length (e.g., 6cm, 6cm, 4cm).
+// Angles: The angles opposite the two equal sides are also equal.
+// Scalene:
+// Sides: All three sides have different lengths (e.g., 5cm, 7cm, 9cm).
+// Angles: All three angles have different measures.
+
+//1. Equilateral Triangle or Isosceles Triangle, Scalene Triangle?
+
+a=10;
+b=10;
+c=10;
+if ( a==b &&  b==c )
+{
+	info "Three sides are equal in length is Equilateral Triangle";
+}
+else if (a == b || b == c || a == c) 
+{
+	info "Two Sides are equal is Isosceles Triangle";
+}
+else 
+{
+	info "No are Sides are equal is Scalene Triangle";
+}
+
+
+// 2. Write a deluge script to check whether the given parenthesis are
+// balanced or unbalanced.
+// Input:
+// Input_string="(())())()";
+// Output:
+// Parenthesis are Unbalanced
+
+Input_string="(())())(())(()";
+open=0;
+close=0;
+for each i in Input_string.tolist("")
+{
+	if ( i == "(" ) 
+    {
+		open=open+1;
+    }
+	else 
+    {
+		close=close+1;
+    }
+}
+if ( open == close ) 
+{
+	info "Parenthesis are balanced and Valid";
+}
+else 
+{
+	info "Parenthesis are Unbalanced and InValid";
+}
+
+
+
+// 5. Convert the following list into a map.
+// Input:
+// Cities = ["Delhi","Mumbai","Chennai"]
+// Output:
+// {"Delhi": 5 ,"Mumbai": 6 , "Chennai": 7}
+// Hint:(The value of each key should be the length of the city name).
+// Additionally, write a Deluge script to sort a map by its values in
+// ascending or descending order.
+cities = ["Delhi","Mumbai","Chennai","salem","uthiramerur"];
+
+new=map();
+for each i in cities
+{
+	new.put(i,i.len());
+}
+info new;
+asc=new.sort();
+info "Ascending order of values is - "+asc;
+
+
